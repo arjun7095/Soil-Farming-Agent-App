@@ -1,4 +1,4 @@
-# Soil-Agriculture-agent-app
+# Soil-Farming-Agent-app
 ## Description
 This project is a Soil Farming Agent application built with the MERN stack (MongoDB, Express.js, React.js, Node.js). It allows administrators to manage soil and distributor details and enables users to view this information.
 
@@ -13,8 +13,8 @@ This project is a Soil Farming Agent application built with the MERN stack (Mong
 
 1. **Clone the repository**:
    ```bash
-   git clone https://github.com/arjun7095/Soil-Agriculture-agent-app.git
-   cd Soil-Agriculture-agent-app
+   git clone https://github.com/arjun7095/Soil-Farming-Agent-App.git
+   cd Soil-Farming-Agent-app
    
 2.**Install server dependencies**:
   cd server

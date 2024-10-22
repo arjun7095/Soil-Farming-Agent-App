@@ -1,0 +1,34 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+nav {
+  background-color: #007bff; /* Bootstrap primary color */
+  padding: 10px 20px;
+  display: flex;
+  justify-content: space-around; /* Space links evenly */
+  align-items: center;
+}
+
+nav i {
+  font-size: 18px; /* Increased font size for better visibility */
+}
+
+nav a {
+  color: white; /* Link color */
+  text-decoration: none; /* Remove underline */
+  transition: color 0.3s ease; /* Smooth transition for hover effect */
+}
+
+nav a:hover {
+  color: #ffeb3b; /* Change link color on hover */
+}

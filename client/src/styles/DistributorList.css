@@ -1,0 +1,134 @@
+/* General Styling */
+.distributor-list-container {
+  max-width: 800px;
+  margin: 50px auto;
+  padding: 20px;
+  background-color: #fff;
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+h2 {
+  text-align: center;
+  margin-bottom: 20px;
+  color: #333;
+}
+
+.distributor-table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.distributor-table th,
+.distributor-table td {
+  border: 1px solid #ccc;
+  padding: 10px;
+  text-align: left;
+}
+
+.distributor-table th {
+  background-color: #f4f4f4;
+  color: #007bff;
+}
+
+.distributor-table tr:nth-child(even) {
+  background-color: #f9f9f9;
+}
+
+/* Style for the download button */
+.download-btn {
+  margin-top: 20px;
+  padding: 10px 15px;
+  background-color: #4cacaf;
+  color: white;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+  width: auto;
+}
+
+.download-btn:hover {
+  background-color: #4545a0;
+}
+
+/* Style for the search input */
+.search-input {
+  width: 100%;
+  max-width: 400px;
+  padding: 10px;
+  margin-bottom: 20px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  font-size: 16px;
+  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+  transition: all 0.3s ease-in-out;
+}
+
+.search-input:focus {
+  outline: none;
+  border-color: #007bff;
+  box-shadow: 0px 2px 6px rgba(0, 123, 255, 0.4);
+}
+
+/* Responsive Styling */
+
+/* For tablets and smaller devices */
+@media (max-width: 768px) {
+  .distributor-list-container {
+    width: 90%;
+    padding: 15px;
+  }
+
+  .distributor-table th,
+  .distributor-table td {
+    padding: 8px;
+  }
+
+  .download-btn {
+    padding: 8px 16px;
+    font-size: 14px;
+  }
+
+  .search-input {
+    font-size: 14px;
+    padding: 8px;
+  }
+}
+
+/* For mobile devices */
+@media (max-width: 480px) {
+  .distributor-list-container {
+    width: 95%;
+    padding: 10px;
+  }
+
+  h2 {
+    font-size: 18px;
+  }
+
+  .distributor-table th,
+  .distributor-table td {
+    padding: 6px;
+    font-size: 12px;
+  }
+
+  .search-input {
+    font-size: 12px;
+    padding: 6px;
+  }
+
+  .download-btn {
+    padding: 6px 12px;
+    font-size: 12px;
+  }
+
+  /* Ensure the table is scrollable on smaller screens */
+  .distributor-table {
+    display: block;
+    overflow-x: auto;
+    white-space: nowrap;
+  }
+}
